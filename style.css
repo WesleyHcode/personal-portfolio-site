@@ -1,3 +1,5 @@
+/* Variables*/
+
 :root {
     --color-primary: #0284c7;
     --color-secondary: #0f172a;
@@ -12,12 +14,29 @@
     --transition-fast: 0.2s ease-in-out;
 }
 
-.project-card {
-    background-color: var(--color-white);
-    border: 5px solid var(--color-secondary);
-    border-radius: var(--radius-md);
-    padding: 20px;
+/* Reset */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Base Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+/* Utility Classes */
 
 .button {
     background-color: var(--color-primary);
@@ -28,3 +47,31 @@
     cursor: pointer;
     transition: background-color var(--transition-fast);
 }
+
+/* Layout - Navigation Bar */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Layout - Sections */
+
+.hero-header {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.project-card {
+    background-color: var(--color-white);
+    border: 5px solid var(--color-secondary);
+    border-radius: var(--radius-md);
+    padding: 20px;
+}
+
+
+
