@@ -53,12 +53,12 @@ h1, h2, h3 {
 .site-header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 .site-nav {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 /* Layout - Sections */
