@@ -52,6 +52,9 @@ h1, h2, h3 {
 
 .site-header {
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     justify-content: space-between;
     padding: 20px;
 }
