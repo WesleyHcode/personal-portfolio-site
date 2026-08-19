@@ -53,7 +53,7 @@ h1, h2, h3 {
 .site-header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
 }
 
 /* Layout - Sections */
