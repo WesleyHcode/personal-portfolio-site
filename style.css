@@ -56,6 +56,11 @@ h1, h2, h3 {
     padding: 10px;
 }
 
+.site-nav {
+    display: flex;
+    gap: 15px;
+}
+
 /* Layout - Sections */
 
 .hero-header {
