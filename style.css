@@ -57,7 +57,7 @@ h1, h2, h3 {
     z-index: 1000;
     justify-content: space-between;
     padding: 20px;
-    background-color: red;
+    background-color: var(--color-background);
 }
 
 .site-nav {
