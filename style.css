@@ -25,7 +25,7 @@
 /* Base Styles */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Avenir, sans-serif;
     background-color: var(--color-background);
     color: var(--color-text);
     line-height: 1.6;
