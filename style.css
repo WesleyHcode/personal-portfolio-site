@@ -24,6 +24,12 @@
 
 /* Base Styles */
 
+logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
 body {
     font-family: Avenir, sans-serif;
     background-color: var(--color-background);
