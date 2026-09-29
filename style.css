@@ -8,7 +8,7 @@
     --color-white: #ffffff;
 
     --font-main: 'Helvetica Neue', Arial, sans-serif;
-    --font-heading: 'Georgia', serif;
+    --font-heading: 'Avenir', sans-serif;
 
     --radius-md: 8px;
     --transition-fast: 0.2s ease-in-out;
@@ -31,7 +31,7 @@ logo {
 }
 
 body {
-    font-family: Avenir, sans-serif;
+    font-family: var(--font-main);
     background-color: var(--color-background);
     color: var(--color-text);
     line-height: 1.6;
